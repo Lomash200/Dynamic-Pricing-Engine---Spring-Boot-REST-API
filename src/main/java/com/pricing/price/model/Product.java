@@ -1,0 +1,18 @@
+package com.pricing.price.model;
+
+public class Product {
+    private String id;
+    private String name;
+    private double basePrice;
+
+    public Product(String id, String name, double basePrice) {
+        this.id = id;
+        this.name = name;
+        this.basePrice = basePrice;
+    }
+
+    // Getters
+    public String getId() { return id; }
+    public String getName() { return name; }
+    public double getBasePrice() { return basePrice; }
+}
